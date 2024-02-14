@@ -1,0 +1,126 @@
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+
+
+}
+
+#secaosuperior {
+    background-color: #303030;
+    color: white;
+    height: 475px;
+    width: 1440px;
+
+
+}
+
+#titulo-secaosuperior {
+    margin-left: 62px;
+    font-size: 54px;
+    padding-top: 206px;
+
+}
+
+#texto-secaosuperior {
+    margin-left: 62px;
+    font-size: 20px;
+    padding-top: 35px;
+}
+
+#secao_2 {
+    background-color: #f9f9f9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    grid-auto-columns: 380px;
+    padding: 100px;
+    width: 1440px;
+    margin-left: 100px;
+   
+
+}
+
+.Num {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.text {
+    font-size: 20px;
+}
+
+#secao_3 {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding-left: 62px;
+    padding-right: 62px;
+    text-align: justify;
+    background-color: #f9f9f9;
+    padding-bottom: 62px;
+    width: 1440px;
+}
+
+.Text1 {
+    font-size: 40px;
+    padding-top: 280px;
+    grid-area: 1/ 1 / 3 / 6;
+}
+
+.Text2 {
+    font-size: 24px;
+    padding-top: 120px;
+    grid-area: 2 / 1 / 4 / 6;
+}
+
+.imagem {
+    padding-top: 100px;
+    grid-area: 1/ 5 / 4 / 7;
+}
+
+#SecaoFormulario {
+    background-color: #303030;
+    height: 638px;
+    width: 1440px;
+    text-align: center;
+}
+
+#titulo-formulario {
+    font-size: 32px;
+    margin: 25px;
+    color: #ffffff;
+    padding-top: 80px;
+}
+
+input {
+    height: 72px;
+    width: 508px;
+    background-color: #ffffff;
+    font-size: 24px;
+    border-radius: 10px;
+    border: 0px;
+    padding-left: 10px;
+}
+
+button {
+    background-color: #C07212;
+    height: 74px;
+    width: 286px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+    border: 0px;
+    color: #FFFF;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e0b785;
+    box-shadow: 0px 15px 20px #2327537c;
+    transition-duration: 0.5s;
+    color: #303030;
+}
